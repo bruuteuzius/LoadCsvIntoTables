@@ -41,7 +41,7 @@ namespace LoadCsvIntoTables
                 Console.WriteLine("directory does not exist...");
             }
             Console.WriteLine("/**--Done! Press [ENTER] --**/");
-            Console.ReadLine();
+            Console.ReadLine(); 
         }
 
         private static void BuildSqlScriptAndExecute(List<string[]> csvList, string tableName)
